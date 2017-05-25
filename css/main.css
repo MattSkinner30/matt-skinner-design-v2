@@ -15,7 +15,11 @@ html {
 
 body {
   margin: 0;
+  background-image: url("file:///Users/MattSkinner/Documents/Pro Graphic Design/Website/version-2/matt-skinner-design-v2/images/background.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
 /**
 font-family: 'Reenie Beanie', cursive;
 font-family: 'Roboto Slab', serif;
@@ -33,7 +37,7 @@ font-family: 'Roboto Slab', serif;
 
 
 header {
-  background-color: #ccc;
+
 }
 
 .header-logo {
@@ -53,6 +57,7 @@ header {
 
 .header-a {
   text-decoration: none;
+  color: black;
 }
 
 /** 
@@ -67,7 +72,7 @@ header {
 
 h2 {
   font-size: 36pt;
-  margin: 3em 0 0 0;
+  margin: 1em 0 0 0;
 }
 
 .main-logo {
