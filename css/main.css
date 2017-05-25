@@ -10,6 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: sans-serif;
 }
 
 body {
@@ -61,16 +62,60 @@ header {
 ==================================================
 **/
 
+h2 {
+  font-size: 24pt;
+  color: #ff401b;
+
+}
+
+.main-logo {
+  width: 40%;
+  padding: 0 0 10em 30%;
+
+}
+
+.main-work-link {
+  text-decoration: none;
+  font-size: 16pt;
+  border: solid 3px #ff401b;
+  padding: 2.5em;
+  margin: 0 0 0 10%;
+  color: #ff401b;
+}
+
+.main-work-link:hover {
+  border: solid 5px #ff401b;
+  color: #ff401b;
+  font-weight: bold;
+  background-color: #ffcdc3;
+}
+
+.main-work-link-div {
+  margin-top: 2.5em;
+}
+
+.main-p {
+  margin: 0 10% 0 40%;
+  font-size: 16pt;
+}
 
 
 
 
+/** 
+==================================================
+==================================================
+==================================================
+**********THESE ARE THE PRE MADE CLASSES**********
+==================================================
+==================================================
+==================================================
+**/
 
 
-
-
-
-
+ .center {
+  text-align: center;
+ }
 
 
 
