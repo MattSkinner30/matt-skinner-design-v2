@@ -58,6 +58,14 @@ header {
 .header-a {
   text-decoration: none;
   color: black;
+  padding: 1.31em;
+}
+
+.header-a:hover {
+  border: solid 5px #ff401b;
+  color: #ff401b;
+  background-color: #ffcdc3;
+  padding: 1em;
 }
 
 /** 
