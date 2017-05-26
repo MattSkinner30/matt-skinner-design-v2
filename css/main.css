@@ -61,7 +61,14 @@ header {
   padding: 1.31em;
 }
 
-.header-a:hover {
+.header-a-active {
+  text-decoration: none;
+  color: #ff401b;
+  padding: 1.31em;
+}
+
+
+.header-a:hover, .header-a-active:hover {
   border: solid 5px #ff401b;
   color: #ff401b;
   background-color: #ffcdc3;
@@ -94,10 +101,10 @@ h2 {
   text-decoration: none;
   font-size: 16pt;
   border: solid 3px #ff401b;
-  padding: 40px 40px;
+  padding: 40px;
   color: #ff401b;
   display: block;
-  width: 10%;
+  width: 20%;
   margin: 0 auto;
   text-align: center;
 }
@@ -117,6 +124,86 @@ h2 {
 }
 
 
+/** 
+==================================================
+==================================================
+==================================================
+**************THIS IS THE SELECT CSS**************
+==================================================
+==================================================
+==================================================
+**/
+
+.work-type-image {
+  padding: 1em;
+  position: relative;
+  z-index: 900;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+
+.work-type-image:hover {
+  filter: grayscale(0%);
+}
+
+.work-type-div {
+}
+
+.work-type-grid {
+  margin: 0 5%;
+  padding: 0;
+  letter-spacing: -.31em;
+  text-rendering: optimizeSpeed;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+/** 
+==================================================
+==================================================
+==================================================
+**********THESE ARE THE SECTION CLASSES***********
+==================================================
+==================================================
+==================================================
+**/
+
+.section-h1 {
+  font-size: 36pt;
+}
+
+.section-intro-p {
+  display: block;
+  width: 33.3333%;
+  margin: 0 auto 2em auto;
+}
+
+.project-title {
+  padding: 0 0 0 10%;
+}
+
+.project-p { /* This is the project listed on the work page */
+  padding: 0 20% 0 10%;
+}
+
+.cover {
+  padding: 1em;
+}
+
+.social-media-row {
+  display: inline-flex;
+  list-style-type: none;
+  padding-left: 10%;
+}
+
+.social-media-row-li {
+  padding: 0 20px 0 0;
+}
 
 
 /** 
@@ -139,12 +226,15 @@ h2 {
   font-weight: bold;
 }
 
+.slab-body {
+  font-family: 'Roboto Slab', serif;
+  font-weight: normal;
+}
+
 .cursive {
   font-family: 'Reenie Beanie', cursive;
   font-weight: normal;
 }
-
-
 
 
 
