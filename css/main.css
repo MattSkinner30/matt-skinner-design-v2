@@ -23,6 +23,8 @@ body {
 /**
 font-family: 'Reenie Beanie', cursive;
 font-family: 'Roboto Slab', serif;
+#ff401b; Main Orange
+#ffcdc3; Hover Orange
 **/
 
 /** 
@@ -175,36 +177,53 @@ h2 {
 
 .section-h1 {
   font-size: 36pt;
+  margin-top: 0;
 }
 
 .section-intro-p {
   display: block;
   width: 33.3333%;
   margin: 0 auto 2em auto;
+  text-align: justify;
 }
 
 .project-title {
-  padding: 0 0 0 10%;
+ font-size: 36pt;
+ text-align: center;
+ margin-top: 0.5em;
 }
 
-.project-p { /* This is the project listed on the work page */
-  padding: 0 20% 0 10%;
+.project-div {
+  padding: 3em;
 }
 
 .cover {
-  padding: 1em;
+
 }
 
-.social-media-row {
-  display: inline-flex;
-  list-style-type: none;
-  padding-left: 10%;
+.project-description {
+
 }
 
-.social-media-row-li {
-  padding: 0 20px 0 0;
+.project-link {
+  padding: 20px 0;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  border: 5px solid #ff401b;
+  color: #ff401b;;
 }
 
+.project-link:hover {
+  border: 5px solid #ff401b;
+  background-color: #ffcdc3;
+  color: #ff401b;
+}
+
+.interaction-project-1 {
+  background-color: blue;
+}
 
 /** 
 ==================================================
@@ -238,7 +257,16 @@ h2 {
 
 
 
+.media-img, .media__img {
+  float: left;
+  width: 33.3333%;
+}
 
+.media-body, .media__body {
+  overflow: visible;
+  padding-left: 30%;
+  min-width: 12em; /* Slightly less than 200px, responsiveness built in */
+}
 
 
 
