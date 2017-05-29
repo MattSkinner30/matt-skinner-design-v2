@@ -102,7 +102,7 @@ h2 {
 .main-work-link {
   text-decoration: none;
   font-size: 16pt;
-  border: solid 3px #ff401b;
+  border: solid 5px #ff401b;
   padding: 40px;
   color: #ff401b;
   display: block;
@@ -223,6 +223,48 @@ h2 {
 
 .interaction-project-1 {
   background-color: blue;
+}
+
+
+
+/** 
+==================================================
+==================================================
+==================================================
+**********THESE ARE THE PROJECT CLASSES***********
+==================================================
+==================================================
+==================================================
+**/
+
+.project-h1 {
+  font-size: 48pt;
+}
+
+.project-main-p {
+/*
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+*/
+
+  width: 60%;
+  margin: 0 auto;
+  padding: 0 0 3em 0;
+}
+
+.project-caption {
+  font-family: 'Roboto Slab', serif;
+  font-weight: normal;
+  width: 60%;
+  margin: 0 auto;
+  padding: 1em 0 2em 0;
+}
+
+.project-image {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
 }
 
 /** 
