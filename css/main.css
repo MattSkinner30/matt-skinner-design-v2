@@ -264,7 +264,8 @@ h2 {
 .project-image {
   width: 75%;
   display: block;
-  margin: 0 auto;
+  margin: 3em auto 0 auto;
+
 }
 
 .project-main-p a {
