@@ -102,7 +102,7 @@ h2 {
 .main-work-link {
   text-decoration: none;
   font-size: 16pt;
-  border: solid 5px #ff401b;
+  border: solid 5f00px #ff401b;
   padding: 40px;
   color: #ff401b;
   display: block;
@@ -265,6 +265,14 @@ h2 {
   width: 75%;
   display: block;
   margin: 0 auto;
+}
+
+.project-main-p a {
+  color: #ff401b;
+}
+
+.project-main-p a:hover {
+  text-decoration: underline;
 }
 
 /** 
