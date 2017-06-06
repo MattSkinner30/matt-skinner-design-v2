@@ -313,12 +313,35 @@ h2 {
 
 .contact-h1 {
   font-size: 48pt;
-  margin: 0;
+  margin: 0 0 10px 10%;
 }
 
 .contact-div {
   float: right;
   width: 70%;
+}
+
+
+.contact-link {
+  padding: 10px 20px;
+  margin-left: 10%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  border: 5px solid #ff401b;
+  color: #ff401b;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.contact-link:hover {
+  border: 5px solid #ff401b;
+  background-color: #ffcdc3;
+  color: #ff401b;
+}
+
+.contact-p {
+  margin: 0 30% 5% 10%;
 }
 
 /** 
