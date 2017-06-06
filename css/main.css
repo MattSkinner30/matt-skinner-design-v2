@@ -15,9 +15,9 @@ html {
 
 body {
   margin: 0;
-  background-image: url("file:///Users/MattSkinner/Documents/Pro Graphic Design/Website/version-2/matt-skinner-design-v2/images/background.jpg"); 
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("file:///Users/MattSkinner/Documents/Pro Graphic Design/Website/version-2/matt-skinner-design-v2/images/background.svg"); 
+  background-size: 100%;
+  background-repeat: repeat-y;
 }
 
 /**
@@ -102,7 +102,7 @@ h2 {
 .main-work-link {
   text-decoration: none;
   font-size: 16pt;
-  border: solid 5f00px #ff401b;
+  border: solid 5px #ff401b;
   padding: 40px;
   color: #ff401b;
   display: block;
@@ -265,7 +265,18 @@ h2 {
   width: 75%;
   display: block;
   margin: 3em auto 0 auto;
+}
 
+.project-image-portrait {
+  width: 33%;
+  display: block;
+  margin: 3em auto 0 auto;
+}
+
+.project-image-photo {
+  width: 50%;
+  display: block;
+  margin: 3em auto 0 auto;
 }
 
 .project-main-p a {
@@ -306,8 +317,6 @@ h2 {
   font-weight: normal;
 }
 
-
-
 .media-img, .media__img {
   float: left;
   width: 33.3333%;
@@ -319,7 +328,11 @@ h2 {
   min-width: 12em; /* Slightly less than 200px, responsiveness built in */
 }
 
-
+.video {
+  margin: 0 auto;
+  display: block;
+  border: 2px solid black;
+}
 
 
 
