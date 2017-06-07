@@ -15,7 +15,7 @@ html {
 
 body {
   margin: 0;
-  background-image: url("https://mattskinner30.github.io/matt-skinner-design-v2/images/background.svg"); 
+  background-image: url("https://mattskinner30.github.io/matt-skinner-design-v2/images/background.svg");
   background-size: 100%;
   background-repeat: repeat-y;
 }
@@ -27,7 +27,7 @@ font-family: 'Roboto Slab', serif;
 #ffcdc3; Hover Orange
 **/
 
-/** 
+/**
 ==================================================
 ==================================================
 ==================================================
@@ -36,11 +36,6 @@ font-family: 'Roboto Slab', serif;
 ==================================================
 ==================================================
 **/
-
-
-header {
-
-}
 
 .header-logo {
   margin: 25px 0;
@@ -69,7 +64,6 @@ header {
   padding: 1.31em;
 }
 
-
 .header-a:hover, .header-a-active:hover {
   border: solid 5px #ff401b;
   color: #ff401b;
@@ -77,7 +71,7 @@ header {
   padding: 1em;
 }
 
-/** 
+/**
 ==================================================
 ==================================================
 ==================================================
@@ -96,7 +90,6 @@ h2 {
   width: 33.3333%;
   display: block;
   margin: 0 auto 7em auto;
-
 }
 
 .main-work-link {
@@ -117,16 +110,11 @@ h2 {
   background-color: #ffcdc3;
 }
 
-.main-work-link-div {
-
-}
-
 .main-p {
   font-size: 28pt;
 }
 
-
-/** 
+/**
 ==================================================
 ==================================================
 ==================================================
@@ -142,19 +130,15 @@ h2 {
   z-index: 900;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  margin-top: -3em;
 }
-
 
 .work-type-image:hover {
   filter: grayscale(0%);
 }
 
 .work-type-div h2 {
-  margin-top: 0;
+  margin-top: -1em;
 }
-
-
 
 .work-type-grid {
   margin: 0 5%;
@@ -169,7 +153,7 @@ h2 {
   flex-flow: row wrap;
 }
 
-/** 
+/**
 ==================================================
 ==================================================
 ==================================================
@@ -192,21 +176,13 @@ h2 {
 }
 
 .project-title {
- font-size: 36pt;
- text-align: center;
- margin-top: 0.5em;
+  font-size: 36pt;
+  text-align: center;
+  margin-top: 0.5em;
 }
 
 .project-div {
   padding: 3em;
-}
-
-.cover {
-
-}
-
-.project-description {
-
 }
 
 .project-link {
@@ -216,7 +192,7 @@ h2 {
   text-align: center;
   text-decoration: none;
   border: 5px solid #ff401b;
-  color: #ff401b;;
+  color: #ff401b;
 }
 
 .project-link:hover {
@@ -229,9 +205,7 @@ h2 {
   background-color: blue;
 }
 
-
-
-/** 
+/**
 ==================================================
 ==================================================
 ==================================================
@@ -246,12 +220,6 @@ h2 {
 }
 
 .project-main-p {
-/*
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-*/
-
   width: 60%;
   margin: 0 auto;
   padding: 0 0 3em 0;
@@ -283,6 +251,10 @@ h2 {
   margin: 3em auto 0 auto;
 }
 
+.project-image-last {
+  padding-bottom: 2em;
+}
+
 .project-main-p a {
   color: #ff401b;
 }
@@ -295,7 +267,7 @@ h2 {
   padding: 10px;
 }
 
-/** 
+/**
 ==================================================
 ==================================================
 ==================================================
@@ -307,8 +279,8 @@ h2 {
 
 .contact-img {
   float: left;
-  width: 20%;
-  margin-left: 10%;
+  width: 25%;
+  margin: 0 0 0 5%;
 }
 
 .contact-h1 {
@@ -320,7 +292,6 @@ h2 {
   float: right;
   width: 70%;
 }
-
 
 .contact-link {
   padding: 10px 20px;
@@ -344,7 +315,7 @@ h2 {
   margin: 0 30% 5% 10%;
 }
 
-/** 
+/**
 ==================================================
 ==================================================
 ==================================================
@@ -354,12 +325,9 @@ h2 {
 ==================================================
 **/
 
-
-
-
- .center {
+.center {
   text-align: center;
- }
+}
 
 .slab {
   font-family: 'Roboto Slab', serif;
@@ -392,15 +360,3 @@ h2 {
   display: block;
   border: 2px solid black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
