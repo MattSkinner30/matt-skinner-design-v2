@@ -360,3 +360,79 @@ h2 {
   display: block;
   border: 2px solid black;
 }
+
+
+@media only screen and (max-width: 891px) {
+
+  .main-work-link {
+    width: 40%;
+    padding: 30px;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 607px) {
+
+  .main-work-link {
+    width: 50%;
+    padding: 30px;
+  }
+
+  h2 {
+    font-size: 28pt;
+  }
+
+  .work-type-image {
+    padding-bottom: 5em;
+    width: 75%;
+  }
+
+
+  .project-image {
+    width: 90%;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  .project-caption, .project-main-p {
+    width: 80%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
