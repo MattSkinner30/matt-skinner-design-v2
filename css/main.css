@@ -473,6 +473,14 @@ h2 {
     width: 80%;
   }
 
+  .header-logo {
+    max-width: 150px;
+    margin-top: 60px;
+  }
+
+  .main-logo {
+    width: 50%;
+  }
 }
 
 
