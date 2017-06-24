@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/module.css">
+  <script src="js/main.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
 </head>
@@ -25,25 +26,33 @@
       </div>
 
       <div class="unit l-1-2 m-1-2 s-1-2 xs-1-2">
-        <nav>
-          <ul class="header-ul">
+        <nav role="navigation">
 
-            <li class="header-li">
-              <a class="header-a slab" href="work-select.html">work</a>
-            </li>
+          <div id="myNav" class="overlay">
 
-            <li class="header-li">
-              <a class="header-a slab" href="contact.html">contact</a>
-            </li>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-          </ul> 
+              <ul id="" class="header-ul overlay-content">
+
+                <li class="header-li">
+                  <a class="header-a slab" href="work-select.html">work</a>
+                </li>
+
+                <li class="header-li">
+                  <a class="header-a slab" href="contact.html">contact</a>
+                </li>
+
+              </ul> 
+          </div>
+
+            <span class="slab" onclick="openNav()">MENU</span>
         </nav>
       </div>
 
     </div>
 
   </header>
-`
+
   <main>
     <h2 class="center cursive">Hey there, I'm</h2>
     <img class="main-logo" src="images/matt-logo.png" alt="My totally rad logo I know you love it">

@@ -71,6 +71,14 @@ font-family: 'Roboto Slab', serif;
   padding: 1em;
 }
 
+nav span {
+  visibility: hidden;
+}
+
+.closebtn {
+  visibility: hidden;
+}
+
 /**
 ==================================================
 ==================================================
@@ -369,7 +377,70 @@ h2 {
     padding: 30px;
   }
 
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .overlay a {
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    padding: 0;
+  }
+
+  .overlay a:hover {
+    padding: 0;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ff401b;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    visibility: visible;
+  }
+
+  nav span {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    text-decoration: none;
+    color: black;
+    visibility: visible;
+    padding: 1.31em;
+    font-size: 16pt;
+  }
+
+  nav span:hover {
+    border: solid 5px #ff401b;
+    color: #ff401b;
+    background-color: #ffcdc3;
+    padding: 1em;
+  }
 }
+
 
 
 
@@ -401,12 +472,24 @@ h2 {
   .project-caption, .project-main-p {
     width: 80%;
   }
+
 }
 
 
 
 
+@media screen and (max-height: 450px) {
 
+  .overlay a {
+    font-size: 20px
+  }
+  
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
 
 
 
