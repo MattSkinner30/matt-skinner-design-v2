@@ -439,6 +439,15 @@ h2 {
     background-color: #ffcdc3;
     padding: 1em;
   }
+
+    .header-logo {
+    max-width: 150px;
+    margin: 60px 0 0 0;
+  }
+
+  .main-logo {
+    width: 50%;
+  }
 }
 
 
@@ -473,20 +482,13 @@ h2 {
     width: 80%;
   }
 
-  .header-logo {
-    max-width: 150px;
-    margin-top: 60px;
-  }
 
-  .main-logo {
-    width: 50%;
-  }
 }
 
 
 
 
-@media screen and (max-height: 450px) {
+@media screen and (max-width: 450px) {
 
   .overlay a {
     font-size: 20px
@@ -497,9 +499,40 @@ h2 {
     top: 15px;
     right: 35px;
   }
+
+  nav span {
+    top: 1%;
+    right: 1%;
+  }
+
+  .header-logo {
+    max-width: 125px;
+    margin: 15px 0 0 -35px;
+  }
+
+  header ul {
+    padding: 0;
+  }
+
+
+  nav span {
+    padding: 0.81em;
+    font-size: 12pt;
+  }
+
+  nav span:hover {
+    border: solid 5px #ff401b;
+    color: #ff401b;
+    background-color: #ffcdc3;
+    padding: 0.5em;
+  }
+
+  .header-li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16pt;
+  }
 }
-
-
 
 
 
