@@ -16,7 +16,7 @@
 
 <body>
 
-  <header>
+    <header>
 
     <div class="grid">
 
@@ -25,26 +25,33 @@
       </div>
 
       <div class="unit l-1-2 m-1-2 s-1-2 xs-1-2">
-        <nav>
+        <nav role="navigation">
 
-          <ul class="header-ul">
+          <div id="myNav" class="overlay">
 
-            <li class="header-li">
-              <a class="header-a slab" href="work-select.html">work</a>
-            </li>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-            <li class="header-li">
-              <a class="header-a slab" href="contact.html">contact</a>
-            </li>
+              <ul id="" class="header-ul overlay-content">
 
+                <li class="header-li">
+                  <a class="header-a slab" href="work-select.html">work</a>
+                </li>
 
-          </ul> 
+                <li class="header-li">
+                  <a class="header-a slab" href="contact.html">contact</a>
+                </li>
+
+              </ul> 
+          </div>
+
+            <span class="slab" onclick="openNav()">menu</span>
         </nav>
       </div>
 
     </div>
 
   </header>
+
 
 <main>
 
