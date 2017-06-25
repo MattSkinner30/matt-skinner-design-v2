@@ -559,6 +559,22 @@ h2 {
   .header-bot-pad {
     padding-bottom: 25px;
   }
+
+
+  .contact-div {
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .contact-p {
+    margin: 0 10% 25px 10%;
+  }
+
+  .contact-link {
+    width: 80%;
+    margin: 0 10% 25px 10%;
+  }
 }
 
 
