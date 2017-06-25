@@ -213,6 +213,10 @@ h2 {
   background-color: blue;
 }
 
+.work-type-grid h2 {
+  font-size: 30pt;
+}
+
 /**
 ==================================================
 ==================================================
@@ -370,7 +374,18 @@ h2 {
 }
 
 
+@media only screen and (max-width: 1198px) {
+
+  .work-type-grid h2 {
+    font-size: 30pt;
+  }
+}
+
 @media only screen and (max-width: 891px) {
+
+  .work-type-grid h2 {
+    font-size: 24pt;
+  }
 
   .main-work-link {
     width: 40%;
@@ -455,6 +470,14 @@ h2 {
 
 @media only screen and (max-width: 607px) {
 
+  .header-bot-pad {
+    padding-bottom: 25px;
+  }
+
+  .work-type-grid h2 {
+    font-size: 36pt;
+  }
+
   .main-work-link {
     width: 50%;
     padding: 30px;
@@ -531,6 +554,10 @@ h2 {
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 16pt;
+  }
+
+  .header-bot-pad {
+    padding-bottom: 25px;
   }
 }
 
