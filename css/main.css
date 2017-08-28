@@ -251,6 +251,13 @@ h2 {
   margin: 3em auto 0 auto;
 }
 
+.project-image-border {
+  width: 75%;
+  display: block;
+  margin: 3em auto 0 auto;
+  border: 1px black solid;
+}
+
 .project-image-portrait {
   width: 33%;
   display: block;
